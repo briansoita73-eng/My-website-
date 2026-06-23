@@ -1,1 +1,94 @@
-# My-website-
+M
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CreativeFlow</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f5f5fb;color:#222}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:#fff;position:sticky;top:0}
+nav a{margin:0 12px;text-decoration:none;color:#333}
+.hero{display:flex;flex-wrap:wrap;align-items:center;padding:60px 8%;
+background:linear-gradient(135deg,#ffffff,#f2e8ff)}
+.hero .text{flex:1;min-width:300px}
+.hero h1{font-size:56px;line-height:1.05}
+.grad{background:linear-gradient(90deg,#8a2be2,#ff6b6b,#ffb347);
+-webkit-background-clip:text;color:transparent}
+.hero .art{flex:1;min-width:300px;height:350px;
+background:linear-gradient(135deg,#5b2cff,#ff5fa2,#ff8c42);
+border-radius:24px}
+.btn{display:inline-block;padding:14px 22px;border-radius:8px;
+background:#7c3aed;color:#fff;text-decoration:none}
+section{padding:60px 8%}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;padding:24px;border-radius:16px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px;
+background:linear-gradient(90deg,#7c3aed,#ff6b6b);color:#fff;border-radius:18px;padding:30px}
+footer{background:#0b1530;color:#fff;padding:40px 8%;text-align:center}
+</style>
+</head>
+<body>
+<header>
+<h2>CreativeFlow</h2>
+<nav>
+<a href="#home">Home</a><a href="#services">Services</a>
+<a href="#projects">Projects</a><a href="#contact">Contact</a>
+</nav>
+<a class="btn" href="#contact">Let's Talk</a>
+</header>
+
+<section id="home" class="hero">
+<div class="text">
+<p>WE DESIGN • WE DEVELOP • WE DELIVER</p>
+<h1>We Build Digital Experiences That <span class="grad">Inspire</span></h1>
+<p>A colorful modern demo website suitable for agencies, freelancers and creative projects.</p>
+<a class="btn" href="#projects">Explore Work</a>
+</div>
+<div class="art"></div>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="cards">
+<div class="card"><h3>Web Design</h3><p>Beautiful responsive interfaces.</p></div>
+<div class="card"><h3>Development</h3><p>Fast scalable websites.</p></div>
+<div class="card"><h3>SEO</h3><p>Improve search visibility.</p></div>
+<div class="card"><h3>Branding</h3><p>Create memorable identities.</p></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Featured Projects</h2>
+<div class="cards">
+<div class="card">Finance Platform</div>
+<div class="card">Travel Website</div>
+<div class="card">E‑commerce Store</div>
+<div class="card">Brand Identity</div>
+</div>
+</section>
+
+<section>
+<div class="stats">
+<div><h2>120+</h2><p>Happy Clients</p></div>
+<div><h2>250+</h2><p>Projects</p></div>
+<div><h2>5+</h2><p>Years</p></div>
+<div><h2>98%</h2><p>Satisfaction</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Let's Work Together</h2>
+<form>
+<input placeholder="Your Name" style="width:100%;padding:12px;margin:8px 0">
+<input placeholder="Email" style="width:100%;padding:12px;margin:8px 0">
+<textarea placeholder="Message" style="width:100%;padding:12px;height:120px"></textarea><br>
+<button class="btn" type="button">Send Message</button>
+</form>
+</section>
+
+<footer>© 2026 CreativeFlow Demo</footer>
+</body>
+  </html>
